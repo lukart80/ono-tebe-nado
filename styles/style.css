@@ -300,7 +300,7 @@ a {
 .footer__social-list {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 48px;
 }
 
 .footer__social-list-item {
