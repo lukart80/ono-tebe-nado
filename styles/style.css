@@ -1,8 +1,4 @@
 /* место для вашего кода */
-a {
-    text-underline-offset: 4px;
-}
-
 .header {
     padding: 92px 49px 92px 51px;
     font-size: 18px;
@@ -22,6 +18,7 @@ a {
     list-style: circle;
     height: 100%;
     max-width: 388px;
+    text-underline-offset: 4px;
 }
 
 .header__links-list-item-no-decoration {
@@ -40,7 +37,7 @@ a {
     width: 148px;
 }
 
-.header__logo_image {
+.header__logo-image {
     height: 100%;
     width: 100%;
 }
@@ -53,6 +50,7 @@ a {
     line-height: 24px;
     justify-self: end;
     max-width: 240px;
+    text-underline-offset: 4px;
 }
 
 .cover {
@@ -116,7 +114,7 @@ a {
 }
 
 .cover__description-text {
-    word-spacing: 17px;
+    word-spacing: 18px;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
@@ -162,7 +160,7 @@ a {
 
 .lots__card-list-item {
     width: 430px;
-    height: 450px;
+    min-height: 450px;
     position: relative;
 
 }
@@ -180,6 +178,7 @@ a {
     padding: 50px 40px;
     background-size: cover;
     background-position: center;
+    text-underline-offset: 4px;
 }
 
 .card_type_film {
@@ -288,6 +287,7 @@ a {
 
 .footer__menu-link {
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .footer__social-list {
